@@ -2,6 +2,7 @@ const fs = require('fs');
 
 module.exports = {
   ReadingAndWritingJsonToFile,
+  CheckFileExists,
 };
 
 function ReadingAndWritingJsonToFile(targetPath, orderT) {
