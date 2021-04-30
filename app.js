@@ -32,8 +32,8 @@ const SocketService = require('./services/socketService');
 app.set('socketService', new SocketService(server));
 
 async function auth() {
-  var username = 'hoang.t.ho@qsrvietnam.com';
-  var password = '123456@loKafe!!';
+  var username = 'xxxxxx';
+  var password = 'xxxxxx';
   var config = {
     url: 'ldap://192.168.11.36:389',
     baseDN: 'ou=qsrvietnam,dc=qsr,dc=local',
