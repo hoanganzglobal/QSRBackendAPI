@@ -31,6 +31,7 @@ function ReadingAndWritingJsonToFile(targetPath, orderT) {
             let order = JSON.parse(orders[index]);
             order.OrderStatusId = orderT.OrderStatusId;
             order.PaymentStatusId = orderT.PaymentStatusId;
+            order.DeliveryTime = orderT.DeliveryTime;
             order.syncStatus = orderT.syncStatus;
             orders[index] = JSON.stringify(order);
           }
